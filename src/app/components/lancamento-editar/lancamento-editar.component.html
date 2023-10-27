@@ -1,0 +1,30 @@
+<!-- lancamento-editar.component.html -->
+<form (ngSubmit)="editarLancamento()">
+  <div class="form-group">
+    <label for="descricao">Descrição:</label>
+    <input type="text" id="descricao" [(ngModel)]="lancamento.descricao" name="descricao" required>
+  </div>
+
+
+  <div class="form-group">
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" [(ngModel)]="lancamento.valor" name="valor" required>
+  </div>
+
+  <div class="form-group">
+    <label for="status">Status:</label>
+    <select id="status" [(ngModel)]="lancamento.status" name="status" required>
+      <option [ngValue]="true">Ativo</option>
+      <option [ngValue]="false">Inativo</option>
+    </select>
+  </div>
+  
+  <div class="form-group">
+    <label for="avulso">Avulso:</label>
+    <input type="checkbox" id="avulso" [(ngModel)]="lancamento.avulso" name="avulso">
+  </div>
+
+  <!-- Adicione outros campos do lançamento aqui -->
+
+  <button type="submit">Salvar Edições</button>
+</form>
