@@ -1,0 +1,86 @@
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/appsettings.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.exe
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.deps.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.runtimeconfig.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.pdb
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Humanizer.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/MySqlConnector.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.AssemblyReference.cache
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.AssemblyInfoInputs.cache
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.AssemblyInfo.cs
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.CoreCompileInputs.cache
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.Teste-Tsistemas.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.build.Teste-Tsistemas.props
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Teste-Tsistemas.props
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Teste-Tsistemas.props
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/scopedcss/bundle/Teste-Tsistemas.styles.css
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.CopyComplete
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/refint/Teste-Tsistemas.dll
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.pdb
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.genruntimeconfig.cache
+C:/Users/novo/Desktop/dotnet/Teste-Tsistemas/obj/Debug/net7.0/ref/Teste-Tsistemas.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/appsettings.Development.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/appsettings.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.deps.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.runtimeconfig.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Teste-Tsistemas.pdb
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Humanizer.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/MySqlConnector.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/bin/Debug/net7.0/System.CodeDom.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.AssemblyReference.cache
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.GeneratedMSBuildEditorConfig.editorconfig
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.AssemblyInfoInputs.cache
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.AssemblyInfo.cs
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.CoreCompileInputs.cache
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.MvcApplicationPartsAssemblyInfo.cs
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.MvcApplicationPartsAssemblyInfo.cache
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.Teste-Tsistemas.Microsoft.AspNetCore.StaticWebAssets.props
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.build.Teste-Tsistemas.props
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Teste-Tsistemas.props
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Teste-Tsistemas.props
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.pack.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.build.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/staticwebassets.development.json
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/scopedcss/bundle/Teste-Tsistemas.styles.css
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.csproj.CopyComplete
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/refint/Teste-Tsistemas.dll
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.pdb
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/Teste-Tsistemas.genruntimeconfig.cache
+/home/aran/Desktop/Teste Tsistemas/Teste-Tsistemas/obj/Debug/net7.0/ref/Teste-Tsistemas.dll
