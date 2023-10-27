@@ -1,38 +1,47 @@
 <form (submit)="inserirLancamento(); refreshPage()">
-  <div class="form-group">
-    <label for="descricao">Descrição:</label>
-    <input type="text" id="descricao" [(ngModel)]="novoLancamento.descricao" name="descricao" required>
-  </div>
+  <div class="container-form">
+    <div class="container-dentro-form">
 
-  <div class="form-group">
-    <label for="data">Data:</label>
-    <input type="date" id="data" [(ngModel)]="novoLancamento.data" name="data" required>
-  </div>
+      <div class="titulo-container">
+        <p>Novo Lançamento</p>
+      </div>
 
-  <div class="form-group">
-    <label for="valor">Valor:</label>
-    <input type="number" id="valor" [(ngModel)]="novoLancamento.valor" name="valor" required>
-  </div>
-
-  <div class="form-group">
-    <label for="status">Status:</label>
-    <select id="status" [(ngModel)]="novoLancamento.status" name="status" required>
-      <option [ngValue]="true">Ativo</option>
-      <option [ngValue]="false">Inativo</option>
-    </select>
-  </div>
+    
+    <div class="form-group">
+      <label for="descricao">Descrição:</label>
+      <input class="input-padrao" type="text" id="descricao" [(ngModel)]="novoLancamento.descricao" name="descricao" required>
+    </div>
   
-
-  <div class="form-group">
-    <label for="avulso">Avulso:</label>
-    <input type="checkbox" id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso">
+    <div class="form-group">
+      <label  for="data">Data:</label>
+      <input type="date" id="data" [(ngModel)]="novoLancamento.data" name="data" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="valor">Valor:</label>
+      <input type="number" id="valor" [(ngModel)]="novoLancamento.valor" name="valor" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="status">Status:</label>
+      <select id="status" [(ngModel)]="novoLancamento.status" name="status" required>
+        <option [ngValue]="true">Ativo</option>
+        <option [ngValue]="false">Inativo</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="avulso">Avulso:</label>
+      <input type="checkbox" id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso">
+    </div>
+  
+    <!-- Adicione outros campos do lançamento aqui -->
+  
+    <button type="submit">Inserir Lançamento</button>
+    
+    <a href="/lancamento">Cancelar Lançamento</a>
   </div>
-
-  <!-- Adicione outros campos do lançamento aqui -->
-
-  <button type="submit">Inserir Lançamento</button>
-  
-  
-  <a href="/lancamento">Voltar para a Lista</a>
+  </div>
 </form>
+
 
