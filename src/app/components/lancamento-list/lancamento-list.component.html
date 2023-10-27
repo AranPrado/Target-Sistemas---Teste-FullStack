@@ -1,32 +1,66 @@
 <div class="container-lancamentos">
-  <div class="titulo-container">
-    <h1 class="titulo">Lançamentos</h1>
-   
+  <div class="header-container">
+    <div class="titulo-container">
+      <h1 class="titulo">Lançamentos</h1>
+    </div>
+    <div class="buttons-container">
+      <a routerLink="/lancamento/inserir" class="button">
+        Novo Lançamento
+      </a>
+
+      <a class="button" routerLink="/lancamento/total">Total de Lançamentos</a>
+    </div>
   </div>
-  <hr class="line">
+  <hr class="line" />
 
-  <div *ngIf="lancamentos.length > 0; else noLancamentos">
-    <!-- Exiba a lista de lançamentos aqui -->
+  <div class="table-container">
+    <table class="my-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+          <th>Status</th>
+          <th>Data</th>
+          <th>Avulso</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let lancamento of lancamentos">
+          <td>{{ lancamento.id }}</td>
+          <td>{{ lancamento.descricao }}</td>
+          <td>
+            {{ lancamento.valor | currency : "BRL" : "symbol" : "1.2-2" }}
+          </td>
+          <td>{{ lancamento.status ? "Ativo" : "Inativo" }}</td>
+          <td>{{ lancamento.data | date : "dd/MM/yyyy" }}</td>
+          <td>{{ lancamento.avulso ? "Avulso" : "Não Avulso" }}</td>
+          <td>
+            <a
+              class="edit-link"
+              [routerLink]="['/lancamento/editar', lancamento.id]"
+              >Editar</a
+            >
+            <button
+              class="delete-button"
+              (click)="excluirLancamento(lancamento.id)"
+            >
+              Excluir
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div *ngIf="lancamentos.length > 0; else noLancamentos">
+      <!-- Exiba a lista de lançamentos aqui -->
+    </div>
+
+    <ng-template #noLancamentos>
+      <div class="noLancamentosContainer">
+        <p class="noLancamentosTitulo">Nenhum lançamento encontrado</p>
+      </div>
+    </ng-template>
   </div>
-
-  <ng-template #noLancamentos>
-    <p>Nenhum lançamento encontrado</p>
-  </ng-template>
-
-
-  <ul>
-    <li *ngFor="let lancamento of lancamentos">
-      {{ lancamento.id }} - {{ lancamento.descricao }} -
-      {{ lancamento.valor | currency : "BRL" : "symbol" : "1.2-2" }} -
-      {{ lancamento.status ? "Válido" : "Inválido" }} -
-      {{ lancamento.data | date : "dd/MM/yyyy" }} -
-      {{ lancamento.avulso ? "Avulso" : "Não Avulso" }}
-      <a [routerLink]="['/lancamento/editar', lancamento.id]">Editar</a>
-      <button (click)="excluirLancamento(lancamento.id)">Excluir</button>
-    </li>
-  </ul> 
 </div>
-  <a routerLink="/lancamento/inserir">Inserir Novo Lançamento</a>
-
-  <a routerLink="/lancamento/total">Total de Lançamentos</a>
-

@@ -11,9 +11,7 @@ import { LancamentoInserirModule } from './components/lancamento-inserir/lancame
 import { LancamentoEditarModule } from './components/lancamento-editar/lancamento-editar.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
-import { MatTableModule } from '@angular/material/table';
-import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +27,7 @@ import { MatInputModule } from '@angular/material/input';
     LancamentoInserirModule,
     LancamentoEditarModule,
     BrowserAnimationsModule,
-    
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
