@@ -23,7 +23,7 @@ export class LancamentoService {
 
   // Método para inserir um novo lançamento
   inserirLancamento(lancamento: Lancamento): Observable<Lancamento> {
-    return this.http.post<Lancamento>(`${this.apiUrl}/api/lancamento/InserirLançamento`, lancamento);
+    return this.http.post<Lancamento>(`${this.apiUrl}/api/Lancamento/InserirLancamento`, lancamento);
   }
 
   // Método para atualizar um lançamento

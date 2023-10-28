@@ -6,6 +6,6 @@ export class Lancamento{
     valor!: number;
     status!: boolean;
     avulso!: boolean;
-    lancamento!: null
+    
   };
   

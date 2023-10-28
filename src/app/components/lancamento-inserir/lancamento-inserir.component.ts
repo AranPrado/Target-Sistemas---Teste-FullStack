@@ -15,7 +15,7 @@ export class LancamentoInserirComponent {
     status: true,
     avulso: false,
     id: 0,
-    lancamento: null
+ 
   };
 
   constructor(private lancamentoService: LancamentoService) {}

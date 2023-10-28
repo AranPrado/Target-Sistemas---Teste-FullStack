@@ -14,17 +14,17 @@
   
     <div class="form-group">
       <label  for="data">Data:</label>
-      <input type="date" id="data" [(ngModel)]="novoLancamento.data" name="data" required>
+      <input class="input-data" type="date" id="data" [(ngModel)]="novoLancamento.data" name="data" required>
     </div>
   
     <div class="form-group">
       <label for="valor">Valor:</label>
-      <input type="number" id="valor" [(ngModel)]="novoLancamento.valor" name="valor" required>
+      <input class="input-padrao"  type="number" id="valor" [(ngModel)]="novoLancamento.valor" name="valor" required>
     </div>
   
     <div class="form-group">
       <label for="status">Status:</label>
-      <select id="status" [(ngModel)]="novoLancamento.status" name="status" required>
+      <select class="input-padrao"  id="status" [(ngModel)]="novoLancamento.status" name="status" required>
         <option [ngValue]="true">Ativo</option>
         <option [ngValue]="false">Inativo</option>
       </select>
@@ -32,14 +32,16 @@
     
     <div class="form-group">
       <label for="avulso">Avulso:</label>
-      <input type="checkbox" id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso">
+      <input class="input-check" type="checkbox" id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso">
     </div>
   
     <!-- Adicione outros campos do lançamento aqui -->
   
-    <button type="submit">Inserir Lançamento</button>
+   <div class="buttons-container">
+    <button class="button-inserir" type="submit">Inserir Lançamento</button>
     
-    <a href="/lancamento">Cancelar Lançamento</a>
+    <a class="button-link" href="/lancamento">Cancelar</a>
+   </div>
   </div>
   </div>
 </form>
