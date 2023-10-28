@@ -46,7 +46,7 @@ namespace Teste_Tsistemas.Controllers
             return lancamentoID;
         }
 
-        [HttpPost("InserirLançamento")]
+        [HttpPost("InserirLancamento")]
         public async Task<ActionResult<Lancamento>> InserirLancamento(
             [FromBody] Lancamento lancamento
         )
