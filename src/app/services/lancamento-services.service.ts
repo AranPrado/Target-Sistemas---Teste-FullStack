@@ -7,7 +7,7 @@ import { Lancamento } from '../models/lancamento.model';
   providedIn: 'root'
 })
 export class LancamentoService {
-  private apiUrl = 'http://localhost:5153'; // Substitua pela URL da sua API
+  private apiUrl = 'http://localhost:5153'; //Digite aqui a URL da API
 
   constructor(private http: HttpClient) { }
 
@@ -16,7 +16,7 @@ export class LancamentoService {
     return this.http.get<Lancamento>(`${this.apiUrl}/api/lancamento/buscarLancamentoPorID/${id}`);
   }
 
-
+  //Método para buscar todos lançamentos
   getLancamentos(): Observable<Lancamento[]> {
     return this.http.get<Lancamento[]>(`${this.apiUrl}/api/lancamento/listarTodosLancamentos`);
   }
@@ -36,6 +36,7 @@ export class LancamentoService {
     return this.http.delete<boolean>(`${this.apiUrl}/api/lancamento/DeletarLancamento/${id}`);
   }
 
+  //Método para calcular total de lançamentos
   calcularTotalLancamentos(): Observable<number> {
     return this.http.get<number>(`${this.apiUrl}/api/lancamento/TotalLancamentos`);
   }

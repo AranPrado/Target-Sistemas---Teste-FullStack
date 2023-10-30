@@ -4,7 +4,7 @@ label {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Remove as setas do input type number */
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -35,7 +35,7 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #000;
   width: 30%;
   height: 400px;
-/* From https://css.glass */
+
 background: rgb(255, 255, 255);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(172, 172, 172, 0.1);

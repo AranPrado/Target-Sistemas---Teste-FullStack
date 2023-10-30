@@ -9,7 +9,7 @@ import { LancamentoService } from 'src/app/services/lancamento-services.service'
   styleUrls: ['./lancamento-editar.component.css']
 })
 export class LancamentoEditarComponent implements OnInit {
-  lancamento: Lancamento = new Lancamento(); // Inicialize o objeto Lancamento
+  lancamento: Lancamento = new Lancamento(); 
 
   constructor(
     private route: ActivatedRoute,
@@ -34,11 +34,11 @@ export class LancamentoEditarComponent implements OnInit {
   editarLancamento() {
     this.lancamentoService.atualizarLancamento(this.lancamento.id, this.lancamento).subscribe(
       (lancamentoEditado) => {
-        // Após salvar as edições, recarregue a página atual
+        
         location.reload();
       },
       (error) => {
-        console.error(error); // Tratar erros, se necessário
+        console.error(error); 
       }
     );
   }

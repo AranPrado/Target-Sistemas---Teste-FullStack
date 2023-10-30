@@ -10,6 +10,9 @@ import { Router } from '@angular/router';
 })
 export class LancamentosListComponent implements OnInit {
   lancamentos: Lancamento[] = [];
+  totalLancamentos: number = 0;
+  mostrarConteudoTabela: boolean = true;
+  novoLancamento: boolean = true;
 
   constructor(private lancamentoService: LancamentoService, private router: Router) {}
 
@@ -31,7 +34,7 @@ export class LancamentosListComponent implements OnInit {
   excluirLancamento(id: number) {
     this.lancamentoService.excluirLancamento(id).subscribe(
         () => {
-            // Recarrega a página atual após a exclusão bem-sucedida
+            
             window.location.reload();
             alert('Lançamento deletado com sucesso');
         },
@@ -40,5 +43,22 @@ export class LancamentosListComponent implements OnInit {
         }
     );
 }
+
+  totalLancamentosFunction(){
+    this.lancamentoService.calcularTotalLancamentos().subscribe(
+      (total) => {
+        this.totalLancamentos = total;
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+  }
+
+alternarConteudoTabela() {
+  this.mostrarConteudoTabela = !this.mostrarConteudoTabela;
+  this.novoLancamento = !this.novoLancamento;
+}
+
 
 }

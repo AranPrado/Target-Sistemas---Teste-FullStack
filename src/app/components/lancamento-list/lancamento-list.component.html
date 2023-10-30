@@ -1,19 +1,21 @@
 <div class="container-lancamentos">
   <div class="header-container">
     <div class="titulo-container">
-      <h1 class="titulo">Lançamentos</h1>
+      <h1 class="titulo">Lançamentos</h1><sup class="sup">Teste Target Sistemas</sup>
     </div>
     <div class="buttons-container">
-      <a routerLink="/lancamento/inserir" class="button">
+      <a *ngIf="mostrarConteudoTabela" routerLink="/lancamento/inserir" class="button">
         Novo Lançamento
       </a>
+      
 
-      <a class="button" routerLink="/lancamento/total">Total de Lançamentos</a>
+      <a class="button" routerLink="/lancamento/total" (click)="alternarConteudoTabela()">Total de Lançamentos</a>
+      
     </div>
   </div>
   <hr class="line" />
 
-  <div class="table-container">
+  <div *ngIf="mostrarConteudoTabela" class="table-container" >
     <table class="my-table">
       <thead>
         <tr>
@@ -54,7 +56,7 @@
     </table>
 
     <div *ngIf="lancamentos.length > 0; else noLancamentos">
-      <!-- Exiba a lista de lançamentos aqui -->
+
     </div>
 
     <ng-template #noLancamentos>
@@ -62,5 +64,16 @@
         <p class="noLancamentosTitulo">Nenhum lançamento encontrado</p>
       </div>
     </ng-template>
+  </div>
+  
+  <!-------------------------------------------------------------------------------->
+
+  <div *ngIf="!mostrarConteudoTabela" class="total-lancamentos">
+    <h1>Total de Lançamentos</h1>
+    <div class="total">
+
+      <p class="text-total">Total: R$ </p><p [ngStyle]="{'color': totalLancamentos < 0 ? 'red' : 'green'}">{{ totalLancamentos }}</p>
+    </div>
+    <a href="/lancamento">Voltar para a Lista</a>
   </div>
 </div>
