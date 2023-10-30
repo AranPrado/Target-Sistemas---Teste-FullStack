@@ -5,6 +5,7 @@ import { LancamentosListComponent } from './components/lancamento-list/lancament
 import { LancamentoEditarComponent } from './components/lancamento-editar/lancamento-editar.component';
 
 
+
 const routes: Routes = [
   { path: 'lancamento/inserir', component: LancamentoInserirComponent },
   { path: 'lancamento/editar/:id', component: LancamentoEditarComponent },

@@ -44,20 +44,20 @@ export class LancamentosListComponent implements OnInit {
     );
 }
 
-  totalLancamentosFunction(){
-    this.lancamentoService.calcularTotalLancamentos().subscribe(
-      (total) => {
-        this.totalLancamentos = total;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
-  }
+  
 
 alternarConteudoTabela() {
   this.mostrarConteudoTabela = !this.mostrarConteudoTabela;
   this.novoLancamento = !this.novoLancamento;
+
+  this.lancamentoService.calcularTotalLancamentos().subscribe(
+    (total) => {
+      this.totalLancamentos = total;
+    },
+    (error) => {
+      console.error(error);
+    }
+  );
 }
 
 

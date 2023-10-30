@@ -32,7 +32,10 @@
     
     <div class="form-group">
       <label for="avulso">Avulso:</label>
-      <input class="input-check" type="checkbox" id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso">
+      <select class="input-padrao"  id="avulso" [(ngModel)]="novoLancamento.avulso" name="avulso" required>
+        <option [ngValue]="true">Sim</option>
+        <option [ngValue]="false">Não</option>
+      </select>
     </div>
   
     
