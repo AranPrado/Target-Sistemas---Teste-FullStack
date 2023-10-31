@@ -13,7 +13,7 @@ Este é o backend do projeto "Teste Target Sistemas". Foi desenvolvido em C# e a
 1. Clone o repositório:
 
 ```shell
-git clone -b https://github.com/AranPrado/tsistemas-TesteFullStack.git
+git clone -b back https://github.com/AranPrado/tsistemas-TesteFullStack.git
 ```
 ```shell
 cd tsistemas-TesteFullStack
