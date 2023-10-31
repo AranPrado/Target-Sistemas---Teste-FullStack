@@ -1,27 +1,42 @@
-# TsistemasFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+# Teste Target Sistemas - (Front-end Angular)
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este é o frontend do projeto "Teste Target Sistemas". Ele foi desenvolvido em Angular e atua como a interface de usuário do sistema.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js: [https://nodejs.org/](https://nodejs.org/)
+- Angular CLI: Execute o seguinte comando para instalar o Angular CLI globalmente: 
 
-## Build
+  ```shell
+  npm install -g @angular/cli
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalação
 
-## Running unit tests
+```shell
+git clone https://github.com/AranPrado/tsistemas-TesteFullStack.git
+```
+```shell
+cd tsistemas-TesteFullStack
+```
+```shell
+npm install
+```
+# Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Inicie o servidor
+```shell
+ng serve
+```
+Abra um navegador e acesse http://localhost:4200 para visualizar o projeto.
 
-## Running end-to-end tests
+## Autores
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [@AranPrado](https://github.com/AranPrado)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
