@@ -39,9 +39,12 @@ Abra um navegador e acesse http://localhost:4200 para visualizar o projeto.
 
 ## Imagens do projeto
 
+Lista de lançamentos
 ![Lista](https://github.com/AranPrado/tsistemas-TesteFullStack/blob/main/ImagensProjeto/lista2.jpeg)
 
+Cadastro de lançamentos
 ![Cadastro](https://github.com/AranPrado/tsistemas-TesteFullStack/blob/main/ImagensProjeto/cadastro2.jpeg)
 
+Total de lançamentos
 ![Total](https://github.com/AranPrado/tsistemas-TesteFullStack/blob/main/ImagensProjeto/total2.jpeg)
 
