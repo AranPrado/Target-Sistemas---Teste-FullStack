@@ -34,7 +34,7 @@ export class LancamentoInserirComponent {
     
   }
 
-  refreshPage(): void {
+  refreshPage(){
     window.location.reload();
   }
 
