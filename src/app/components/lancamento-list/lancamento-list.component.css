@@ -83,12 +83,20 @@ sup:hover{
   padding: 10px;
 }
 
+.edit-link:hover{
+  background-color: #fff;
+}
+
 .delete-button {
   background-color: #dc3545;
   color: #fff;
   border: none;
-  padding: 5px 10px;
+  padding: 10px;
   cursor: pointer;
+}
+
+.delete-button:hover{
+  background-color: #810000;
 }
 
 .noLancamentosContainer {
@@ -118,6 +126,7 @@ sup:hover{
   align-items: center;
   border-radius: 5px;
   height: 30px;
+  cursor: pointer;
   margin-right: 10px;
   color: #000;
   transition: 0.75s;

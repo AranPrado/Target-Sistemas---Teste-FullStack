@@ -9,8 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LancamentoInserirModule } from './components/lancamento-inserir/lancamento-inserir.module';
 import { LancamentoEditarModule } from './components/lancamento-editar/lancamento-editar.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from '@angular/material/icon';
+
+
 
 
 @NgModule({
@@ -26,8 +26,8 @@ import { MatIconModule } from '@angular/material/icon';
     FormsModule,
     LancamentoInserirModule,
     LancamentoEditarModule,
-    BrowserAnimationsModule,
-    MatIconModule
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
